@@ -1,2 +1,2 @@
-# js-review
+# Javascript review
 This is a js review
