@@ -17,3 +17,23 @@ const favoriteStuff = {
     }
 }
 ```
+
+## Examples of functions
+
+```
+// standard function
+function addNumbers(num1, num2){
+    return num1 + num2;
+}
+
+// function expression
+const multiplyNumbers = function(num1, num2){
+    neturn num1 * num2;
+}
+
+// arrow function
+
+consta subtractNumbers = (num1, num2) => {
+    return num1- num2;
+}
+```

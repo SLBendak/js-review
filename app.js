@@ -34,11 +34,35 @@ tesla.print();
 const favoriteStuff = {
     color = 'Blue',
     number = 82,
-    food = ['pizza', 'burger', 'taco'],
+    foods = ['pizza', 'burger', 'taco'],
     heat = false,
     games = {
         gameOne: 'Valorant',
         gameTwo: 'Modern Warfare',
         gameThree: 'The Forest'
     }
+}
+
+function printFoods(array) {
+    array,forEach(food => {
+        console.log(food);
+    })
+}
+
+printFoods(foods);
+
+// standard function
+function addNumbers(num1, num2){
+    return num1 + num2;
+}
+
+// function expression
+const multiplyNumbers = function(num1, num2){
+    neturn num1 * num2;
+}
+
+// arrow function
+
+consta subtractNumbers = (num1, num2) => {
+    return num1- num2;
 }
