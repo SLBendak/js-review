@@ -37,3 +37,24 @@ consta subtractNumbers = (num1, num2) => {
     return num1- num2;
 }
 ```
+
+## DOM Manipulation
+
+```
+//DOM Manipulation
+const container = document.querySelector('.container');
+console.log(container);
+
+const headerTwo = document.createElement('h2');
+headerTwo.textContent = "My First JS Review",
+console.log(headerTwo);
+
+container.appendChild(headerTwo);
+
+headerTwo.classList.add('subtitle', 'header-two');
+headerTwo.setAttribute('class', 'header-two');
+console.log(header-two);
+
+headerTwo.classList.remove(header-two);
+console.log(headerTwo);
+```

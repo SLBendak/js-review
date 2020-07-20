@@ -14,10 +14,10 @@ const tesla = {
         vehicleTwo: 'Model X',
         vehicleThree: 'Model 3'
     },
-    print: function() {
-        console.log('The CEO of Tesla is ' + this.ceo);
+    // print: function() {
+    //     console.log('The CEO of Tesla is ' + this.ceo);
     }
-}
+// }
 
 tesla.stockPrice = 1643.00;
 
@@ -27,20 +27,20 @@ console.log(isCool);
 console.log(friends);
 console.log(tesla);
 
-tesla.print();
+// tesla.print();
 
 //
 
 const favoriteStuff = {
-    color = 'Blue',
-    number = 82,
-    foods = ['pizza', 'burger', 'taco'],
-    heat = false,
-    games = {
+    color: 'Blue',
+    number: 82,
+    foods: ['pizza', 'burger', 'taco'],
+    heat: false,
+    games: {
         gameOne: 'Valorant',
         gameTwo: 'Modern Warfare',
         gameThree: 'The Forest'
-    }
+    },
 }
 
 function printFoods(array) {
@@ -58,11 +58,29 @@ function addNumbers(num1, num2){
 
 // function expression
 const multiplyNumbers = function(num1, num2){
-    neturn num1 * num2;
+    return num1 * num2;
 }
 
 // arrow function
 
-consta subtractNumbers = (num1, num2) => {
+const subtractNumbers = (num1, num2) => {
     return num1- num2;
 }
+
+// The DOM
+
+const container = document.querySelector('.container');
+console.log(container);
+
+const headerTwo = document.createElement('h2');
+headerTwo.textContent = "My First JS Review",
+console.log(headerTwo);
+
+container.appendChild(headerTwo);
+
+headerTwo.classList.add('subtitle', 'header-two');
+headerTwo.setAttribute('class', 'header-two');
+console.log(header-two);
+
+headerTwo.classList.remove(header-two);
+console.log(headerTwo);
