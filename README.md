@@ -58,3 +58,27 @@ console.log(header-two);
 headerTwo.classList.remove(header-two);
 console.log(headerTwo);
 ```
+
+### More DOM Manipulation
+
+```
+// iterate through firends array
+for (let i = 0; i < friends.length; i++){
+    let eachFriend = friends[i];
+    console.log(eachFriend);
+
+// Create an element
+    const listItem = document.createElement('li');
+// add text to that item
+    listItem.textContext = eachFriend;
+// append item to list
+    list.appendChild(listItem);
+
+}
+
+console.log(list);
+// listen for click
+headerThree.addEventListener('click', function(){
+    CredentialsContainer.appendChild(list);
+});
+```
