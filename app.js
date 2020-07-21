@@ -178,33 +178,48 @@
 // I need to push the result of each element inside of the result array
 // return that result array
 
-function fizzBuzz(array) {
-    let result = [];
+// function fizzBuzz(array) {
+//     let result = [];
 
-    for (let i = 0; i < array.length; i++){
-        let num = array[i];
-        console.log(num);
+//     for (let i = 0; i < array.length; i++){
+//         let num = array[i];
+//         console.log(num);
 
-        if (num % 3 === 0 && num % 5 === 0) {
-            // do something
-            result.push('FizzBuzz');
-        } else if (num % 3 === 0){
-            // do something else
-            result.push('Fizz');
-        } else if (num % 5 === 0){
-            // do something else
-            result.push('Buzz');
-        } else {
-            // otherwise do this
-            result.push(num);
-        }
-    }
+//         if (num % 3 === 0 && num % 5 === 0) {
+//             // do something
+//             result.push('FizzBuzz');
+//         } else if (num % 3 === 0){
+//             // do something else
+//             result.push('Fizz');
+//         } else if (num % 5 === 0){
+//             // do something else
+//             result.push('Buzz');
+//         } else {
+//             // otherwise do this
+//             result.push(num);
+//         }
+//     }
 
-    return result;
-}
+//     return result;
+// }
 
 
-console.log(fizzBuzz([3, 5, 15, 20, 9, 7]));
+// console.log(fizzBuzz([3, 5, 15, 20, 9, 7]));
 
-// practice
+// // practice
+
+
+
+  
+// js
+// Write a function `isInside(array, ele)` that returns true if `ele` is an element
+// inside of the `array`, false otherwise.
+//
+// HINT: use indexOf
+//
+// isInside(['taylor', 'rome', 'adam'], 'rome'); // => true
+// isInside(['pete', 'adam', 'taylor'], 'fred'); // => false
+
+
+ 
 
