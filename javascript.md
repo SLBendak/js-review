@@ -1,10 +1,14 @@
 # Javascript review
 This is a js review
 
+
+
 ## Examples of data types in object
 
-```Javascript
+## Javascript
 
+### OBJECT
+```
 const favoriteStuff = {
     color: 'Blue',
     number: 82,
@@ -15,33 +19,78 @@ const favoriteStuff = {
         gameTwo: 'Modern Warfare',
         gameThree: 'The Forest'
     }
-}
+};
+```
+### ARRAY
+```
+var array = ["one", "two", "three"];
+```
+
+### STRING
+```
+var string = "This is a string";
+```
+### NUMBER
+```
+var number = 5;
+```
+
+### BOOLEAN
+```
+var happy = true;
 ```
 
 ## Examples of functions
 
+
+### standard function
 ```
-// standard function
 function addNumbers(num1, num2){
     return num1 + num2;
 }
-
-// function expression
+```
+### function expression
+```
 const multiplyNumbers = function(num1, num2){
     neturn num1 * num2;
 }
-
-// arrow function
-
+```
+### arrow function
+```
 consta subtractNumbers = (num1, num2) => {
     return num1- num2;
 }
 ```
+### Constructor Functions
+```
+function Crawler(x, y, width, height, color) {
+  this.x = x;
+  this.y = y;
+  this.width = width;
+  this.height = height;
+  this.color = color;
+  this.alive = true;
+  this.render = function() {
+    ctx.fillStyle = this.color;
+    ctx.fillRect(this.x, this.y, this.width, this.height);
+  }
+}
+```
+## If/Else Statement
+```
+    condition
+if (x = true){
+    action taken
+    x = false;
+} else(x = false){
+    x = true;
+}
+```
+
 
 ## DOM Manipulation
 
 ```
-//DOM Manipulation
 const container = document.querySelector('.container');
 console.log(container);
 
